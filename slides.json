@@ -1,0 +1,36 @@
+{
+  "slides":[
+      {
+        "link": "/soapbox-derby-race",
+        "alt-title": "For Communities",
+        "image": "/img/race.jpg",
+        "title": "Soapbox Derby Race",
+        "subtitle": "Let's get ready to race!",
+        "description": "The SOAPBOX DERBY RACE..."
+      },
+      {
+        "link": "/stem-program",
+        "alt-title": "For Students",
+        "image": "/img/stem.jpg",
+        "title": "STEM Program",
+        "subtitle": "A look under the hood",
+        "description": "STEM IN MOTION..."
+      },
+      {
+        "link": "/professional-development",
+        "alt-title": "For Schools",
+        "image": "/img/development.jpg",
+        "title": "Professional Development",
+        "subtitle": "Bring the race to your classroom",
+        "description": "Our PROFESSIONAL DEVELOPMENT PROGRAM..."
+      },
+      {
+        "link": "/store",
+        "alt-title": "For Families",
+        "image": "/img/game.jpg",
+        "title": "Marble Game",
+        "subtitle": "A gravity-powered, STEM-driven game",
+        "description": "The MARBLE GAME..."
+      }
+  ]
+}

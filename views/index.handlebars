@@ -1,0 +1,31 @@
+{{> head}}
+{{> navbar}}
+  <div class="node-1093 type-homepage">
+   <section class="banners">
+   	{{#each slides}}
+   	<a href="{{link}}" class="banner" style="display: none;">
+        <img src="{{image}}">
+        <span class="content">
+          <span class="title">{{title}}</span>
+          <span class="copy">{{subtitle}}</span>
+        </span>
+      </a>
+   	{{/each}}
+    </section>
+    <article id="content" role="article">
+     <section class="section-intro">
+        <div class="content cols">
+        	{{#each slides}}
+	          <a href="{{link}}" class="col-1-4">
+	            <span class="title">{{alt-title}}<i></i></span>
+	            <span class="copy">{{description}}</span>
+	          </a>
+          	{{/each}}
+        </div>
+      </section>
+
+      <section class="section-stem"><div class="content"><h2>STEM in Motion is a Program for Everyone!</h2>
+     <p>STEM in motion <strong>INSPIRES</strong>. It’s <strong>ENGAGING </strong>and&nbsp;<strong>CHALLENGING</strong> and creates <strong>PASSION</strong> for learning. It provides <strong>EDUCATION</strong> in <strong>SCIENCE</strong>, <strong>TECHNOLOGY</strong>, <strong>ENGINEERING</strong> and <strong>MATH</strong>. It teaches <strong>COMMUNITY</strong>, <strong>DISCIPLINE</strong> and <strong>PERSEVERANCE</strong>.  It’s rooted in <strong>FAMILY</strong> and <strong>COMMUNITY</strong> and creates <strong>CHAMPIONS</strong> on and off the track!</p></div></section>
+   </article>
+</div>
+{{> footer}}

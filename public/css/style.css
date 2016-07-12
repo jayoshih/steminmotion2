@@ -1,0 +1,158 @@
+::-webkit-scrollbar {
+  width: 8px;
+  margin-left:-100px;
+  position: relative;
+}
+
+::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+   background-color:gray;
+}
+
+#sd_logo{
+  position:absolute;
+  z-index: 10000;
+  margin:5px;
+   width:13vw;
+   height:13vw;
+   min-width:64px;
+   min-height:64px;
+   max-height:230px;
+   max-width:230px;
+   margin-top:5px;
+   margin-left:45vw;
+   top:0em;
+  left:0em;
+}
+
+.truncate{
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+  }
+
+.wordwrap {
+   white-space: pre-wrap;      /* CSS3 */
+   white-space: -moz-pre-wrap; /* Firefox */
+   white-space: -pre-wrap;     /* Opera <7 */
+   white-space: -o-pre-wrap;   /* Opera 7 */
+   word-wrap: break-word;      /* IE */
+}
+
+.subheading{
+  color:#005DAA;
+  font-weight:bold;
+  font-size:20pt;
+}
+
+
+/* Content styling */
+.wrapper{
+  padding-top:60px;
+  padding-left:10vw;
+  padding-bottom:40px;
+  width:100vw;
+}
+
+#contact_form{
+  width:60vw;
+}
+
+input[type=text], textarea{
+  border:none;
+  outline:none;
+  border-bottom:3px solid #0034A1;
+  font-size:15pt;
+  padding:5px;
+  width:100%;
+  margin:10px;
+}
+
+input[type=text]:hover, input[type=text]:active, input[type=text]:focus,
+textarea:hover, textarea:active, textarea:focus{
+  border-bottom:3px solid #FEAF3F;
+}
+
+textarea{
+  height:150px;
+  resize:none;
+}
+
+#contact-help{
+  margin-top:27px;
+  font-size:14pt;
+}
+
+.faq{
+
+  width:60vw;
+}
+.faq-question{
+  font-size:13pt;
+  font-weight:bold;
+  color:#0034A1;
+  margin-top:30px;
+}
+
+.faq-answer{
+  font-size:11pt;
+}
+
+
+.sub-banners { position: relative; z-index: 1; height: 250px; background: #999 url(../../elements/ajax-loader.gif) no-repeat center center; overflow: hidden; }
+.sub-banners img { width: 100%; }
+
+.store-image{
+  width:300px;
+  height:200px;
+  margin-bottom:5px;
+}
+
+.store_item h4, .store_item p{
+  margin:2px;
+}
+
+.store_item p{
+  font-size:12pt;
+}
+.store_item h4{ font-weight:bold;}
+
+.btn-purchase{
+  background-color:#FEAF3F;
+  text-decoration: none;
+  color:white;
+  font-size:13pt;
+  margin-top:10px;
+  width:300px;
+}
+
+.btn-purchase:hover{
+  font-weight:bold;
+  color:white;
+}
+
+.contact_stuff{
+  padding-left:100px !important;
+}
+
+.contact_form{
+  width:50vw;
+  font-size:12pt;
+}
+
+.sd_page{
+  display:none;
+}
+
+li{
+  cursor:pointer;
+}
+
+#states{
+  width:140px;
+}
